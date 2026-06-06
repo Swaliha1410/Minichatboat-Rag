@@ -293,7 +293,7 @@ pip install -r requirements.txt --no-cache-dir
 ```
 
 ### Groq API Key Issues
-- Ensure your API key starts with `gsk_`
+- Ensure your API key starts with `gsk_`  
 - Get a free key at: https://console.groq.com
 - Add it to `.env` file correctly
 
