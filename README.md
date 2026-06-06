@@ -27,7 +27,7 @@ A professional AI chatbot with **Real RAG (Retrieval-Augmented Generation)** cap
 - **Groq AI** integration (FREE and FAST!)
 - Context-aware responses using RAG
 - Citation of source documents
-- Conversational interface
+- Conversational interface 
 
 ### 🎨 **Professional UI**
 - Clean, modern ChatGPT-like interface
