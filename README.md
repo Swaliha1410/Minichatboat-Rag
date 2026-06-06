@@ -8,7 +8,7 @@ A professional AI chatbot with **Real RAG (Retrieval-Augmented Generation)** cap
 
 ![AiNeuralChat Interface]('<img width="1366" height="641" alt="AiNeuralChat" src="https://github.com/user-attachments/assets/2d1235e0-6b36-446b-9ab2-a76050ccfb7e" />
 ')
-
+ 
 ## ✨ Features
 
 ### 🧠 **Real RAG Implementation**
