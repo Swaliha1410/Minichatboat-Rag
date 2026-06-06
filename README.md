@@ -1,4 +1,4 @@
-# AiNeuralChat - RAG Chatbot
+<img width="1366" height="641" alt="AiNeuralChat" src="https://github.com/user-attachments/assets/01f39c0d-7ea0-4370-a7cf-191cbac8bff5" /># AiNeuralChat - RAG Chatbot
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
@@ -6,7 +6,8 @@
 
 A professional AI chatbot with **Real RAG (Retrieval-Augmented Generation)** capabilities. Upload documents (PDF, DOCX, TXT) and chat with your data using advanced vector embeddings and semantic search.
 
-![AiNeuralChat Interface](https://via.placeholder.com/800x400/667eea/ffffff?text=AiNeuralChat+Interface)
+![AiNeuralChat Interface]('<img width="1366" height="641" alt="AiNeuralChat" src="https://github.com/user-attachments/assets/2d1235e0-6b36-446b-9ab2-a76050ccfb7e" />
+')
 
 ## ✨ Features
 
