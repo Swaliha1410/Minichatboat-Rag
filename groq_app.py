@@ -138,7 +138,7 @@ class RAGSystem:
                     text += page.extract_text() + "\n"
                 return text
                 
-            elif filename.lower().endswith(('.doc', '.docx')):
+            elif filename.lower().endswith(('.doc', '.docx')): 
                 import io
                 doc_file = io.BytesIO(content)
                 doc = docx(doc_file)
