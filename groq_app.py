@@ -9,6 +9,7 @@ from typing import List, Dict, Optional
 import numpy as np
 import json
 from dotenv import load_dotenv
+from fastapi.staticfiles import StaticFiles
 
 # Import RAG components only when needed
 sentence_transformers = None
@@ -16,6 +17,13 @@ faiss = None
 PyPDF2 = None
 docx = None
 tiktoken = None
+
+app = FastAPI(
+    title="AiNeuralChat - Real RAG System"
+)
+
+# Serve frontend files
+app.mount("/", StaticFiles(directory="static", html=True), name="static")
 
 def lazy_import_rag():
     """Lazy import of RAG dependencies"""
