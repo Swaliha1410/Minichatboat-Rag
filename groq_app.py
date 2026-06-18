@@ -314,17 +314,17 @@ def handle_without_api(message: str, context_chunks: List[Dict] = None) -> str:
     return f"You asked: '{message}'\n\n🤖 Add your FREE Groq API key to enable full AI chat!"
 
 # API Routes
-@app.get("/")
-async def root():
-    groq_status = "✅ Connected" if os.getenv("GROQ_API_KEY", "").startswith("gsk_") else "❌ Not configured"
-    return {
-        "message": "AiNeuralChat - Real RAG System",
-        "groq_status": groq_status,
-        "documents": len(documents),
-        "chunks": len(chunks),
-        "rag_initialized": rag_system.initialized,
-        "docs": "/docs"
-    }
+# @app.get("/")
+# async def root():
+#     groq_status = "✅ Connected" if os.getenv("GROQ_API_KEY", "").startswith("gsk_") else "❌ Not configured"
+#     return {
+#         "message": "AiNeuralChat - Real RAG System",
+#         "groq_status": groq_status,
+#         "documents": len(documents),
+#         "chunks": len(chunks),
+#         "rag_initialized": rag_system.initialized,
+#         "docs": "/docs"
+#     }
 
 @app.get("/api/health")
 async def health():
